@@ -1,0 +1,286 @@
+.heading {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+
+.heading>.major {
+    margin-bottom: .25em;
+    font-family: PTSansBold,Helvetica,Arial,sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#eee;
+    text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-weight: 300;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  body {
+    font: 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #404040;
+    background: #596778;
+  }
+  .images {
+    width: 180px;
+    height: 180px;
+    margin: 0px 50px 0px 50px;
+    background-position: center;
+  }
+
+  .sign-in {
+    position: relative;
+    margin: 50px auto;
+    width: 280px;
+    padding: 33px 25px 29px;
+    background: white;
+    border-bottom: 1px solid #c4c4c4;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  }
+  .sign-in:before, .sign-in:after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: inherit;
+    border-bottom: 1px solid #d2d2d2;
+    border-radius: 4px;
+  }
+  .sign-in:after {
+    bottom: 2px;
+    border-color: #dcdcdc;
+  }
+  
+  .sign-up-title {
+    margin: -25px -25px -5px;
+    padding: 15px 25px;
+    line-height: 35px;
+    font-size: 26px;
+    font-weight: 300;
+    color: #aaa;
+    text-align: center;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+    background: #f7f7f7;
+  }
+  .sign-up-title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    /* background: #c4e17f; */
+    border-radius: 5px 5px 0 0;
+   }
+  
+  input{
+    font-family: inherit;
+    color: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .alert{
+    background: #e44e4e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border:1px solid #b32929;
+  }
+
+  .alert-done{
+    background: #1c9626;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border:1px solid #1c9626;
+  }
+  
+  .sign-in-input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 0 15px 2px;
+    font-size: 17px;
+    background: white;
+    border: 2px solid #05d4f8;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -2px #ebebeb;
+    box-shadow: inset 0 -2px #ebebeb;
+  }
+  .sign-in-input:focus {
+    border-color: #62c2e4;
+    outline: none;
+    -webkit-box-shadow: inset 0 -2px #62c2e4;
+    box-shadow: inset 0 -2px #62c2e4;
+  }
+  .lt-ie9 .sign-in-input {
+    line-height: 48px;
+  }
+  
+  .sign-in-button {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    height: 54px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #fa4535;
+    border: 0;
+    border-bottom: 2px solid #d76b60;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #d76b60;
+    box-shadow: inset 0 -2px #d76b60;
+  }
+  .sign-in-button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .sign-up-input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 0 15px 2px;
+    font-size: 17px;
+    background: white;
+    border: 2px solid #05d4f8;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -2px #ebebeb;
+    box-shadow: inset 0 -2px #ebebeb;
+  }
+  .sign-up-input:focus {
+    border-color: #62c2e4;
+    outline: none;
+    -webkit-box-shadow: inset 0 -2px #62c2e4;
+    box-shadow: inset 0 -2px #62c2e4;
+  }
+  .lt-ie9 .sign-up-input {
+    line-height: 48px;
+  }
+  .btn-sign{
+    margin: 0 0 0 120px;
+  }
+  .sign-up-button {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    height: 54px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #fa4535;
+    border: 0;
+    border-bottom: 2px solid #d76b60;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #d76b60;
+    box-shadow: inset 0 -2px #d76b60;
+  }
+  .sign-up-button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .lost-input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 0 15px 2px;
+    font-size: 17px;
+    background: white;
+    border: 2px solid #05d4f8;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -2px #ebebeb;
+    box-shadow: inset 0 -2px #ebebeb;
+  }
+  
+  /* :-moz-placeholder {
+    color: #ccc;
+    font-weight: 300;
+  }
+  
+  ::-moz-placeholder {
+    color: #ccc;
+    opacity: 1;
+    font-weight: 300;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #ccc;
+    font-weight: 300;
+  }
+  
+  :-ms-input-placeholder {
+    color: #ccc;
+    font-weight: 300;
+  }
+  
+  ::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+} */
