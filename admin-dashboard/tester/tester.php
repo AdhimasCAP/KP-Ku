@@ -10,7 +10,7 @@
 
   <section class="content">
     <div class="row">
-      <section class="col-lg-5 col-lg-offset-1">
+      <section class="col-lg-9 col-lg-offset-1">
         <div class="box box-info">
 
           <div class="box-header">

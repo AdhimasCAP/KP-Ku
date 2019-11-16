@@ -22,7 +22,7 @@
 <form class="sign-in" action="reset_process.php" method="POST">
     <img class="images" src="image/sistem/tugumuda.jpg" alt="images">
     <label for="username">Username</label>
-    <input type="text" class="lost-input" id="email" name="email"><br>
+    <input type="text" class="lost-input" id="username" name="username"><br>
 
     <label for="password">New Password</label>
     <input type="password" class="lost-input" name="password"><br>
@@ -30,7 +30,7 @@
     <input type="password" class="lost-input" name="cpassword"><br>
 
     <input type="submit" name="reset" class="sign-in-button" value="Reset"><br>
-    <a class="btn-sign" href="loginForm.php">Kembali</a>
+    <a class="btn-sign" href="index.php">Kembali</a>
     <!-- <input type="submit" a href="signupForm.php" class="sign-up-button" value="sign up"> -->
   </form>
 </body>

@@ -14,7 +14,7 @@
                 $pwd = $password;
                 $sql = mysqli_query($koneksi, "UPDATE user SET password = md5('$pwd') WHERE username='$username'");
                 if($sql){
-                    header("location:loginForm.php?pesan=berhasil");
+                    header("location:index.php?pesan=berhasil");
                 }else{
                     header("location:resetPassword.php?pesan=gagal");
                 }

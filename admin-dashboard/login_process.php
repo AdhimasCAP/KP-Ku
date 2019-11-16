@@ -33,10 +33,10 @@
 
 			header("location:./PM/pm_index.php");
 		}else{
-			header("location:loginForm.php?pesan=gagal");
+			header("location:index.php?pesan=gagal");
 		}
 	}else{
-		header("location:loginForm.php?pesan=gagal");
+		header("location:index.php?pesan=gagal");
 	}
 
 	// if (isset($_POST['login'])) {

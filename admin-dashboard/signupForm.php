@@ -58,7 +58,7 @@
     </select><br>
 
     <input type="submit" name="sign_up" value="Sign Up" class="sign-up-button">
-    <a class="btn-sign" href="loginForm.php">Kembali</a>
+    <a class="btn-sign" href="index.php">Kembali</a>
   </form>
 </body>
 </html>
