@@ -25,7 +25,7 @@
             }else if(strlen($password) <= 4){
                 header("location:signupForm.php?pesan=pass_kurang");
             }else{
-                header("location:loginForm.php");
+                header("location:index.php");
                 $query = mysqli_query($koneksi, "insert into user values('$username','$password','$pilih')");
             }
         }
